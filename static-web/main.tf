@@ -4,7 +4,8 @@ provider "aws" {
 
 resource "aws_key_pair" "terraform" {
   key_name   = "terraform_final"
-  public_key = file("C:/Users/vaibh/Downloads/terraform_final_openssh.pub")
+  public_key = file("C:/Users/vaibh/Downloads/terraform_final_clean.pub")
+}
 }
 
 resource "aws_security_group" "blog-web" {
