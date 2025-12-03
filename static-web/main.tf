@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_key_pair" "terraform" {
   key_name   = "terraform"
-  public_key = file("C:/Users/vaibh/Downloads/terraform.pem")
+  public_key = file("C:/Users/vaibh/Downloads/terraform.pub")
 }
 
 
