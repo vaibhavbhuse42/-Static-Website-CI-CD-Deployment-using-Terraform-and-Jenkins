@@ -6,7 +6,7 @@ pipeline {
     DEPLOY_HOST        = '43.204.110.170'
     DEPLOY_PATH        = '/var/www/html'
     SSH_CREDENTIALS_ID = 'web-key'
-    REPO_URL           = 'https://github.com/dalvipiyush07/static-website-project.git'
+    REPO_URL           = 'https://github.com/vaibhavbhuse42/-Static-Website-CI-CD-Deployment-using-Terraform-and-Jenkins.git'
     BRANCH             = 'main'
   }
 
